@@ -22,5 +22,8 @@
   },
   "conventionalCommits.autoCommit": false,
   "conventionalCommits.promptFooter": false,
-  "conventionalCommits.promptScopes": false
+  "conventionalCommits.promptScopes": false,
+  "[handlebars]": {
+    "editor.formatOnSave": false
+  }
 }
