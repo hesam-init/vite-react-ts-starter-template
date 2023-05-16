@@ -13,13 +13,12 @@ module.exports = {
     "airbnb",
     "airbnb/hooks"
   ],
-  plugins: ["react", "@typescript-eslint", "simple-import-sort"],
-  overrides: [],
   parser: "@typescript-eslint/parser",
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module"
   },
+  plugins: ["react", "@typescript-eslint", "simple-import-sort"],
   rules: {
     "no-unused-vars": "off",
     "@typescript-eslint/no-unused-vars": "warn",
