@@ -10,6 +10,7 @@
     "bradlc.vscode-tailwindcss",
     "formulahendry.auto-rename-tag",
     "miguelsolorio.fluent-icons",
-    "orta.vscode-twoslash-queries"
+    "orta.vscode-twoslash-queries",
+    "foxundermoon.shell-format"
   ]
 }
