@@ -1,18 +1,18 @@
 {
   "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "stylelint.vscode-stylelint",
-    "editorconfig.editorconfig",
-    "orta.vscode-jest",
+    "dbaeumer.vscode-eslint", // NOTE - for linting
+    "esbenp.prettier-vscode", // NOTE - for styling
+    "stylelint.vscode-stylelint", // NOTE - lint for styling
+    "editorconfig.editorconfig", // NOTE - editor config for file unicode and space...
+    "orta.vscode-jest", // NOTE - for test
     "styled-components.vscode-styled-components",
-    "xabikos.ReactSnippets",
+    "xabikos.ReactSnippets", // NOTE - react js snippets
     "bradlc.vscode-tailwindcss",
     "formulahendry.auto-rename-tag",
-    "miguelsolorio.fluent-icons",
     "orta.vscode-twoslash-queries",
     "foxundermoon.shell-format",
-    "vivaxy.vscode-conventional-commits",
-    "mflo999.lintel"
+    "vivaxy.vscode-conventional-commits", // NOTE - commit guidelines
+    "mflo999.lintel", // NOTE - for edit eslint config in gui
+    "exodiusstudios.comment-anchors" // NOTE - for comment highlighting and easier find them
   ]
 }
