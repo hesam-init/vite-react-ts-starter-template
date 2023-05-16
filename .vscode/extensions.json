@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "editorconfig.editorconfig",
+    "orta.vscode-jest",
+    "styled-components.vscode-styled-components",
+    "xabikos.ReactSnippets",
+    "bradlc.vscode-tailwindcss",
+    "formulahendry.auto-rename-tag",
+    "miguelsolorio.fluent-icons",
+    "orta.vscode-twoslash-queries"
+  ]
+}
