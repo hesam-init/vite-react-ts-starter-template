@@ -1,5 +1,7 @@
 /** @type {import("eslint").Linter.BaseConfig} */
 
+// NOTE: use lintel extension by Lintel: ESLint Configuration File Visualizer to config with gui
+
 module.exports = {
   env: {
     browser: true,
