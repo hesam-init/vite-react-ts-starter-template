@@ -19,5 +19,7 @@
   "explorer.sortOrder": "type",
   "[properties]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
-  }
+  },
+  "conventionalCommits.autoCommit": false,
+  "conventionalCommits.promptFooter": false
 }
