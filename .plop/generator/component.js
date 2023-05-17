@@ -11,23 +11,23 @@ export const reactComponentGenerator = (desc) => ({
     const actions = [
       {
         type: "add",
-        path: "src/components/{{pascalCase name}}/{{pascalCase name}}.tsx",
-        templateFile: ".plop/template/component/component.tsx.hbs"
+        path: "../src/components/{{pascalCase name}}/{{pascalCase name}}.tsx",
+        templateFile: "template/component/component.tsx.hbs"
       },
       {
         type: "add",
-        path: "src/components/{{pascalCase name}}/style.module.scss",
-        templateFile: ".plop/template/component/style.module.scss.hbs"
+        path: "../src/components/{{pascalCase name}}/style.module.scss",
+        templateFile: "template/component/style.module.scss.hbs"
       },
       {
         type: "add",
-        path: "src/components/{{pascalCase name}}/index.ts",
-        templateFile: ".plop/template/component/index.ts.hbs"
+        path: "../src/components/{{pascalCase name}}/index.ts",
+        templateFile: "template/component/index.ts.hbs"
       },
       {
         type: "add",
-        path: "src/components/{{pascalCase name}}/types.ts",
-        templateFile: ".plop/template/component/types.ts.hbs"
+        path: "../src/components/{{pascalCase name}}/types.ts",
+        templateFile: "template/component/types.ts.hbs"
       }
     ];
 

@@ -2,8 +2,8 @@
 
 import promptDirectory from "inquirer-directory";
 
-import { reactComponentGenerator } from "./.plop/generator/component.js";
-import { reactPageGenerator } from "./.plop/generator/page.js";
+import { reactComponentGenerator } from "./generator/component.js";
+import { reactPageGenerator } from "./generator/page.js";
 
 const componentTypes = {
   REACT_COMPONENT: "React component",

@@ -10,7 +10,7 @@
     "fix:eslint": "eslint --fix  . --ext .ts,.tsx",
     "lint:stylelint": "stylelint **/*.{css,scss,tsx}",
     "fix:stylelint": "stylelint --fix ./src/**/*.{css,scss,tsx}",
-    "gen": "plop"
+    "gen": "plop --plopfile ./.plop/index.js"
   },
   "dependencies": {
     "eslint-plugin-simple-import-sort": "^9.0.0",
