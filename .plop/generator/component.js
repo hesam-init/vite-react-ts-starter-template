@@ -16,7 +16,7 @@ export const reactComponentGenerator = (desc) => ({
       },
       {
         type: "add",
-        path: "src/components/{{pascalCase name}}/{{pascalCase name}}.module.scss",
+        path: "src/components/{{pascalCase name}}/style.module.scss",
         templateFile: ".plop/template/component/style.module.scss.hbs"
       },
       {
