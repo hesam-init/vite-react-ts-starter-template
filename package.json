@@ -10,7 +10,7 @@
     "fix:eslint": "eslint --fix  . --ext .ts,.tsx",
     "lint:stylelint": "stylelint **/*.{css,scss,tsx}",
     "fix:stylelint": "stylelint --fix ./src/**/*.{css,scss,tsx}",
-    "gen": "plop --plopfile ./.plop/index.js"
+    "gen": "tsc -p tsconfig.plop.json && copyfiles -u 1 .plop/template/** .plop/dist/ && plop --plopfile ./.plop/dist/index.js"
   },
   "dependencies": {
     "eslint-plugin-simple-import-sort": "^9.0.0",
@@ -28,6 +28,7 @@
     "@typescript-eslint/parser": "^5.48.2",
     "@vitejs/plugin-react": "^3.0.0",
     "autoprefixer": "^10.4.13",
+    "copyfiles": "^2.4.1",
     "eslint": "^8.32.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.6.0",

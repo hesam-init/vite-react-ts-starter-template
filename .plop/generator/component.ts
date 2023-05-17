@@ -1,4 +1,4 @@
-export const reactComponentGenerator = (desc) => ({
+export const reactComponentGenerator = (desc: string) => ({
   description: desc,
   prompts: [
     {
@@ -7,26 +7,26 @@ export const reactComponentGenerator = (desc) => ({
       message: "Component name:"
     }
   ],
-  actions(data) {
-    const actions = [
+  actions(data: any) {
+    const actions: any[] = [
       {
         type: "add",
-        path: "../src/components/{{pascalCase name}}/{{pascalCase name}}.tsx",
+        path: "../../src/components/{{pascalCase name}}/{{pascalCase name}}.tsx",
         templateFile: "template/component/component.tsx.hbs"
       },
       {
         type: "add",
-        path: "../src/components/{{pascalCase name}}/style.module.scss",
+        path: "../../src/components/{{pascalCase name}}/style.module.scss",
         templateFile: "template/component/style.module.scss.hbs"
       },
       {
         type: "add",
-        path: "../src/components/{{pascalCase name}}/index.ts",
+        path: "../../src/components/{{pascalCase name}}/index.ts",
         templateFile: "template/component/index.ts.hbs"
       },
       {
         type: "add",
-        path: "../src/components/{{pascalCase name}}/types.ts",
+        path: "../../src/components/{{pascalCase name}}/types.ts",
         templateFile: "template/component/types.ts.hbs"
       }
     ];

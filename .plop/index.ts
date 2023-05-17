@@ -1,7 +1,5 @@
 /* eslint-disable import/extensions */
-
-import promptDirectory from "inquirer-directory";
-
+import { NodePlopAPI } from "plop";
 import { reactComponentGenerator } from "./generator/component.js";
 import { reactPageGenerator } from "./generator/page.js";
 
@@ -10,8 +8,7 @@ const componentTypes = {
   REACT_PAGE: "React Router"
 };
 
-export default (plop) => {
-  plop.setPrompt("directory", promptDirectory);
+export default (plop: NodePlopAPI) => {
   plop.setGenerator(
     componentTypes.REACT_COMPONENT,
     reactComponentGenerator(componentTypes.REACT_COMPONENT)
