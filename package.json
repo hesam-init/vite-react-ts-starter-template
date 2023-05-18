@@ -2,14 +2,17 @@
   "name": "starter-template",
   "version": "0.0.1",
   "scripts": {
+    "// SECTION: Vite Default": "",
     "dev": "vite",
     "build": "tsc && vite build",
     "prev": "vite preview",
+    "// SECTION: Linter": "",
     "lint:eslint": "eslint . --ext .ts,.tsx",
     "fix:eslint": "eslint --fix  . --ext .ts,.tsx",
     "lint:stylelint": "stylelint **/*.{css,scss,tsx}",
     "fix:stylelint": "stylelint --fix ./src/**/*.{css,scss,tsx}",
-    "gen": "tsc -p tsconfig.plop.json && copyfiles -u 1 .plop/template/** .plop/dist/ && plop --plopfile ./.plop/dist/index.js",
+    "// SECTION: Plop Generator": "",
+    "gen": "cross-env TS_NODE_PROJECT='./ts-node.tsconfig.json' plop --plopfile ./.plop/index.ts",
     "plop": "cross-env TS_NODE_PROJECT='./ts-node.tsconfig.json' plop --plopfile ./.plop/index.ts"
   },
   "dependencies": {
