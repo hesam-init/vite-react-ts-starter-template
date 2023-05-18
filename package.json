@@ -11,6 +11,8 @@
     "fix:eslint": "eslint --fix  . --ext .ts,.tsx",
     "lint:stylelint": "stylelint **/*.{css,scss,tsx}",
     "fix:stylelint": "stylelint --fix ./src/**/*.{css,scss,tsx}",
+    "// SECTION: Cspell Checker": "",
+    "cspell": "cspell --config=cspell.config.cjs \"**/*.{md,mdx,ts,mts,cts,js,cjs,mjs,tsx,jsx}\"",
     "// SECTION: Plop Generator": "",
     "gen": "cross-env TS_NODE_PROJECT='./ts-node.tsconfig.json' plop --plopfile ./.plop/index.ts",
     "plop": "cross-env TS_NODE_PROJECT='./ts-node.tsconfig.json' plop --plopfile ./.plop/index.ts"
@@ -31,6 +33,7 @@
     "@vitejs/plugin-react": "^3.0.0",
     "autoprefixer": "^10.4.13",
     "cross-env": "^7.0.3",
+    "cspell": "^6.31.1",
     "eslint": "^8.32.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.6.0",
