@@ -12,7 +12,7 @@
     "lint:stylelint": "stylelint **/*.{css,scss,tsx}",
     "fix:stylelint": "stylelint --fix ./src/**/*.{css,scss,tsx}",
     "// SECTION: Cspell Checker": "",
-    "cspell": "cspell --config=cspell.config.cjs \"**/*.{md,mdx,ts,mts,cts,js,cjs,mjs,tsx,jsx}\"",
+    "cspell": "cspell --config=cspell.config.cjs \"**/*.{md,mdx,ts,mts,cts,js,cjs,mjs,tsx,jsx,*}\"",
     "// SECTION: Plop Generator": "",
     "gen": "cross-env TS_NODE_PROJECT='./ts-node.tsconfig.json' plop --plopfile ./.plop/index.ts",
     "plop": "cross-env TS_NODE_PROJECT='./ts-node.tsconfig.json' plop --plopfile ./.plop/index.ts"

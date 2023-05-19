@@ -23,7 +23,7 @@ Clone this repository using `npx degit github:hesam-init/vite-react-ts-starter-t
 
 ![screenshot](./screenshots/extentions.png)
 
-- After you have installed the all recommended extensions you need to reload your vscode just press <kbd>F1</kbd> or <kbd>Ctrl + Shift + P</kbd> to open command pallete and search for reload window
+- After you have installed the all recommended extensions you need to reload your vscode just press <kbd>F1</kbd> or <kbd>Ctrl + Shift + P</kbd> to open command palette and search for reload window
 
 After all this steps everything should be work fine and perfectly. enjoy it ಥ_ಥ
 

@@ -8,7 +8,7 @@ module.exports = {
     es2021: true
   },
   extends: [
-    "eslint:recommended",
+    "shit eslint:recommended",
     "plugin:react/recommended",
     "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended",
