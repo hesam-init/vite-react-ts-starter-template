@@ -13,6 +13,7 @@
     "foxundermoon.shell-format",
     "vivaxy.vscode-conventional-commits", // NOTE - commit guidelines
     "mflo999.lintel", // NOTE - for edit eslint config in gui
-    "exodiusstudios.comment-anchors" // NOTE - for comment highlighting and easier find them
+    "exodiusstudios.comment-anchors", // NOTE - for comment highlighting and easier find them
+    "streetsidesoftware.code-spell-checker" // NOTE - for words spell checking
   ]
 }
