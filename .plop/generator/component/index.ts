@@ -27,7 +27,7 @@ export const reactComponentGenerator: PlopGeneratorConfig = {
   ],
   actions: (data) => {
     const answers = data as Answers;
-    const componentPath = `${baseGeneratorPath}/${answers.path}/{{properCase ${ComponentPromptNames.componentName}}}`;
+    const componentPath = `${baseGeneratorPath}/${answers.path}/{{lowerCase ${ComponentPromptNames.componentName}}}`;
     const actualComponentPath = `${baseGeneratorPath}/${answers.path}/${answers.componentName}`;
 
     if (pathExists(actualComponentPath)) {
@@ -54,10 +54,8 @@ export const reactComponentGenerator: PlopGeneratorConfig = {
         abortOnFail: true
       },
       {
-        type: "add",
-        path: `${componentPath}/types.ts`,
-        templateFile: `${templateRoot}/types.ts.hbs`,
-        abortOnFail: true
+        type: "prettify",
+        data: { path: `${actualComponentPath}/**` }
       }
     ];
 

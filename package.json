@@ -13,6 +13,8 @@
     "fix:stylelint": "stylelint --fix ./src/**/*.{css,scss,tsx}",
     "// SECTION: Cspell Checker": "",
     "cspell": "cspell --config=cspell.config.cjs \"**/*.{md,mdx,ts,mts,cts,js,cjs,mjs,tsx,jsx,*}\"",
+    "// SECTION: Formatting": "",
+    "prettify": "prettier --write",
     "// SECTION: Plop Generator": "",
     "gen": "cross-env TS_NODE_PROJECT='./ts-node.tsconfig.json' plop --plopfile ./.plop/index.ts",
     "plop": "cross-env TS_NODE_PROJECT='./ts-node.tsconfig.json' plop --plopfile ./.plop/index.ts"
@@ -49,6 +51,7 @@
     "prettier": "^2.8.3",
     "prettier-plugin-tailwindcss": "^0.2.1",
     "sass": "^1.57.1",
+    "shelljs": "^0.8.5",
     "stylelint": "^14.16.1",
     "stylelint-config-clean-order": "^2.3.1",
     "stylelint-config-prettier": "^9.0.4",

@@ -1,12 +1,12 @@
 import style from "./style.module.scss";
-import type { {{componentName}}Props } from "./types";
+import type { {{pascalCase componentName}}Props } from "./types";
 
-function {{componentName}}({ prop = "{{componentName}}" }: {{componentName}}Props) {
+function {{pascalCase componentName}}({ prop = "{{pascalCase componentName}}" }: {{pascalCase componentName}}Props) {
   return (
-    <div className={ style.{{componentName}} }>
+    <div className={ style.{{pascalCase componentName}} }>
       <h1>{prop}</h1>
     </div>
   );
 }
 
-export default {{componentName}};
+export default {{pascalCase componentName}};
